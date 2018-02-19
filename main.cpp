@@ -55,6 +55,7 @@ bool bSearch(vector<int> &v, int first, int last, int element)
 
     if(v[mid] == element)
     {
+        
         return true;
     }
     else
