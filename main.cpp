@@ -94,7 +94,7 @@ int main() {
         else
         { cout<< "\n "<< element << " is NOT present in vector ";printVector(vec);}
 
-        cout<< "\n\n\nEnter 1 to try again or 0 to EXIT";
+        cout<< "\n\nEnter 1 to try again or 0 to EXIT";
         cin>>counter;
     }
     return 0;
