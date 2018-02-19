@@ -5,14 +5,6 @@
 //#include <sort>
 
 using namespace std;
-/*bool bSearchPalin(const vector<int> &vec , int first, int last)
-{
-    if (first == last  ) return true;
-    if( first > last ) return true;
-
-    return (s[first] == s[last] ? isPalin(s,first+1, last-1): false);
-
-}*/
 
 void printVector(vector<int> &v);
 void getVector(vector<int> &v)
@@ -55,7 +47,7 @@ bool bSearch(vector<int> &v, int first, int last, int element)
 
     if(v[mid] == element)
     {
-        
+
         return true;
     }
     else
